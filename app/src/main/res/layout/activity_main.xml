@@ -37,8 +37,10 @@
             android:layout_height="45dp"
             android:layout_weight="50"
             android:background="@drawable/background_item"
+            android:fontFamily="sans-serif-condensed-light"
             android:text="Get Location"
             android:textColor="?attr/colorOnPrimary"
+            android:textStyle="bold"
             app:iconTint="#C14444" />
 
     </LinearLayout>
@@ -57,9 +59,12 @@
             android:layout_marginTop="2dp"
             android:layout_weight="70"
             android:background="@drawable/background_item"
-            android:hint="Search by City Name"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="Search by City Name.."
+            android:paddingLeft="10dp"
             android:textColor="@color/design_default_color_on_secondary"
-            android:paddingLeft="10dp" />
+            android:textColorHint="?attr/colorOnPrimary"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/btnSearch"
@@ -67,8 +72,10 @@
             android:layout_height="45dp"
             android:layout_weight="30"
             android:background="@drawable/background_item"
+            android:fontFamily="sans-serif-condensed-light"
             android:text="Search"
             android:textColor="?attr/colorOnPrimary"
+            android:textStyle="bold"
             app:iconTint="#C14444" />
 
     </LinearLayout>
@@ -80,7 +87,8 @@
         android:gravity="center"
         android:padding="10dp"
         android:background="@drawable/background_item"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/MainPart">
 
         <ImageView
             android:id="@+id/iconWeather"
