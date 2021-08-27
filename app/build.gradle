@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.formalab.tutorialweatherapp"
+        applicationId "com.formalab.MyOnlyWeather"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1

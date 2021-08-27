@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String city = etCityName.getText().toString();
                 if (city.isEmpty())
-                    Toast.makeText(MainActivity.this, "Please enter name of the city", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Please enter a city name", Toast.LENGTH_LONG).show();
                 else {
-                    // TODO : load weather by city name !
+
                     loadWeatherByCityName(city);
                 }
             }

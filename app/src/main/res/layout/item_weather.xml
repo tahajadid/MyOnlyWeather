@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
         android:text="Sat, Nov 21"
-        android:textColor="#000000"
+        android:textColor="?attr/colorOnPrimary"
         android:textSize="22sp" />
 
 
@@ -28,7 +28,7 @@
         android:layout_alignParentRight="true"
         android:fontFamily="serif"
         android:text="20 °C"
-        android:textColor="@color/design_default_color_on_secondary"
+        android:textColor="?attr/colorOnPrimary"
         android:textSize="22sp" />
 
     <ImageView

@@ -22,12 +22,12 @@
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_gravity="start"
-            android:layout_weight="60"
+            android:layout_weight="50"
             android:fontFamily="sans-serif-condensed-light"
             android:gravity="center"
             android:paddingLeft="10dp"
             android:text="Get Your Location ->"
-            android:textColor="@color/design_default_color_on_secondary"
+            android:textColor="?attr/colorOnPrimary"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -35,10 +35,10 @@
             android:id="@+id/btnLocalisation"
             android:layout_width="0dp"
             android:layout_height="45dp"
-            android:layout_weight="40"
+            android:layout_weight="50"
             android:background="@drawable/background_item"
             android:text="Get Location"
-            android:textColor="@color/design_default_color_on_secondary"
+            android:textColor="?attr/colorOnPrimary"
             app:iconTint="#C14444" />
 
     </LinearLayout>
@@ -68,7 +68,7 @@
             android:layout_weight="30"
             android:background="@drawable/background_item"
             android:text="Search"
-            android:textColor="@color/design_default_color_on_secondary"
+            android:textColor="?attr/colorOnPrimary"
             app:iconTint="#C14444" />
 
     </LinearLayout>
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="@color/design_default_color_on_secondary"
+                android:textColor="?attr/colorOnPrimary"
                 android:textSize="30sp"
                 android:layout_marginLeft="8dp"
                 android:textStyle="bold|italic"
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed-light"
                 android:layout_marginLeft="8dp"
-                android:textColor="@color/design_default_color_on_secondary"
+                android:textColor="?attr/colorOnPrimary"
                 android:textSize="26sp"
                 tools:text="Landon, US" />
         </LinearLayout>
