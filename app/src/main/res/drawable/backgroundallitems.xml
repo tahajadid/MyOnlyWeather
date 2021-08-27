@@ -7,7 +7,13 @@
                 android:left="2dp"
                 android:right="2dp"
                 android:top="2dp" />
-            <solid android:color="#112196F3" />
+            <marging
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="12dp" />
+            <stroke android:color="#173E3B37" android:width="2dp"/>
+            <solid android:color="#14566470" />
             <corners android:radius="16dp" />
         </shape>
     </item>

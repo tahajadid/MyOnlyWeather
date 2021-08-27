@@ -22,7 +22,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String API_KEY = "df07195ad38e7d3cbb2f448d3aec3285";
+    private static final String API_KEY = "4e766e5e6026d9658f8974fcd083e6ef";
 
     Button btnSearch;
     EditText etCityName;
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String city = etCityName.getText().toString();
                 if (city.isEmpty())
-                    Toast.makeText(MainActivity.this, "Please enter a city name", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Please enter name of the city", Toast.LENGTH_LONG).show();
                 else {
                     // TODO : load weather by city name !
                     loadWeatherByCityName(city);
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                         // do stuff with the result or error
                         if (e != null) {
                             e.printStackTrace();
-                            Toast.makeText(MainActivity.this, "Server error", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "please check your network connection !", Toast.LENGTH_SHORT).show();
                         } else {
                             // convert json response to java
                             JsonObject main = result.get("main").getAsJsonObject();
