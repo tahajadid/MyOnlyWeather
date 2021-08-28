@@ -33,11 +33,8 @@ Some screenshot of Light and Dark Mode of the application :
 <img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/access.jpg" width="180" height="370">
 
 - Light Mode
-<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light01.jpg" width="180" height="370">
-<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light02.jpg" width="180" height="370">
-<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light03.jpg" width="180" height="370">
+<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light01.jpg" width="180" height="370"><img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light02.jpg" width="180" height="370"><img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light03.jpg" width="180" height="370">
 
--Dark Mode
-<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/dark01.jpg" width="180" height="370">
-<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/dark02.jpg" width="180" height="370">
+- Dark Mode
+<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/dark01.jpg" width="180" height="370"><img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/dark02.jpg" width="180" height="370">
 
