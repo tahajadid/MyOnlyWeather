@@ -12,31 +12,32 @@
 
 
     <TextView
-        android:id="@+id/tvDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed-light"
-        android:text="Sat, Nov 21"
-        android:textColor="?attr/colorOnPrimary"
-        android:textSize="22sp" />
-
-
-    <TextView
         android:id="@+id/tvTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:fontFamily="serif"
+        android:fontFamily="sans-serif-condensed-light"
         android:text="20 °C"
-        android:textColor="?attr/colorOnPrimary"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Sat, Nov 21"
+        android:textColor="@color/design_default_color_on_secondary"
         android:textSize="22sp" />
 
     <ImageView
         android:id="@+id/iconWeather"
         android:layout_width="50dp"
         android:layout_height="30dp"
-        android:layout_toLeftOf="@id/tvTemp"
-        android:layout_marginRight="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/tvTemp"
         android:scaleType="centerCrop"
         android:src="@drawable/icon02d" />
 
