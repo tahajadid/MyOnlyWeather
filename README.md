@@ -26,4 +26,18 @@ Logo created using Adobe Photoshop CS6
 
 Some screenshot of Light and Dark Mode of the application :
 
+- Splash Screen 
 ![image](https://github.com/tahajadid/ID-Device/blob/master/Img/capt1.PNG) &nbsp;
+
+- Access
+![image](https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/access.jpg) &nbsp;
+
+- Light Mode
+![image](https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light01.jpg) &nbsp;
+![image](https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light02.jpg) &nbsp;
+![image](https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/light03.jpg) &nbsp;
+
+-Dark Mode
+![image](https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/dark01.jpg) &nbsp;
+![image](https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/dark02.jpg) &nbsp;
+
