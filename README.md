@@ -1,5 +1,20 @@
 # MyOnlyWeather Application
 
+
+## Features
+ - Splash Screen on start of the applicatio
+ - Search by the name of city to get weather 
+ - List of the next 7 days and their weathers
+ - Use your Location without entring the name of the city
+
+## Technologies
+
+- OpenWeatherMap API ![link](https://openweathermap.org/guide) &nbsp;
+- FusedLocationProviderClient
+- Geocoder
+- Photoshop
+- JSON
+
 ## Logo
 Logo created using Adobe Photoshop CS6
 
