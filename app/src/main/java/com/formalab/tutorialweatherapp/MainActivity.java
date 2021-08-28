@@ -112,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
+
         fusedLocationProviderClient.getLastLocation().addOnCompleteListener(new OnCompleteListener<Location>() {
             @Override
             public void onComplete(@NonNull @org.jetbrains.annotations.NotNull Task<Location> task) {
@@ -126,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
                         // Search by the name of the city returned
                         loadWeatherByCityName(adress.get(0).getLocality());
+                        etCityName.setText(null);
 
                     } catch (IOException e) {
                         e.printStackTrace();
