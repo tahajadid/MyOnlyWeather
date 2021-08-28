@@ -9,9 +9,9 @@
 
 ## Technologies
 
-- OpenWeatherMap API ![link](https://openweathermap.org/guide) &nbsp;
+- [OpenWeatherMap API](https://openweathermap.org/guide)
 - FusedLocationProviderClient
-- Geocoder
+- [Geocoder](https://developers.google.com/maps/documentation/javascript/reference/geocoder)
 - Photoshop
 - JSON
 
