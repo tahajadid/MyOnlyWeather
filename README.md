@@ -27,7 +27,7 @@ Logo created using Adobe Photoshop CS6
 Some screenshot of Light and Dark Mode of the application :
 
 - Splash Screen 
-<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/splash.jpg" width="180" height="300">
+<img src="https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/splash.jpg" width="180" height="350">
 
 - Access
 ![image](https://github.com/tahajadid/MyOnlyWeather/blob/master/Img/access.jpg) &nbsp;
