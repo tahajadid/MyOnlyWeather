@@ -22,20 +22,20 @@
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_gravity="start"
-            android:layout_weight="50"
+            android:layout_weight="60"
             android:fontFamily="sans-serif-condensed-light"
             android:gravity="center"
             android:paddingLeft="10dp"
             android:text="Get Your Location ->"
             android:textColor="?attr/colorOnPrimary"
-            android:textSize="16sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnLocalisation"
             android:layout_width="0dp"
             android:layout_height="45dp"
-            android:layout_weight="50"
+            android:layout_weight="40"
             android:background="@drawable/background_item"
             android:fontFamily="sans-serif-condensed-light"
             android:text="Get Location"
@@ -57,7 +57,8 @@
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_marginTop="2dp"
-            android:layout_weight="70"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="60"
             android:background="@drawable/background_item"
             android:fontFamily="sans-serif-condensed-light"
             android:hint="Search by City Name.."
@@ -70,7 +71,7 @@
             android:id="@+id/btnSearch"
             android:layout_width="0dp"
             android:layout_height="45dp"
-            android:layout_weight="30"
+            android:layout_weight="40"
             android:background="@drawable/background_item"
             android:fontFamily="sans-serif-condensed-light"
             android:text="Search"
@@ -86,7 +87,7 @@
         android:layout_margin="10dp"
         android:gravity="center"
         android:padding="10dp"
-        android:background="@drawable/background_item"
+        android:background="@drawable/background_fix_part"
         android:orientation="horizontal"
         android:id="@+id/MainPart">
 
@@ -94,7 +95,7 @@
             android:id="@+id/iconWeather"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:background="@drawable/background_item"
+            android:background="@drawable/background_fix_part"
             android:padding="20dp"
             android:scaleType="centerCrop"/>
 
