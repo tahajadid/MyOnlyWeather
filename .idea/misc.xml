@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/IDEAPAD GAMING 3/AndroidStudioProjects/MyOnlyWeather/app/src/main/res/drawable/background_fix_part.xml" value="0.165" />
+        <entry key="..\:/Users/IDEAPAD GAMING 3/AndroidStudioProjects/MyOnlyWeather/app/src/main/res/drawable/warning_all_bg.xml" value="0.165" />
+        <entry key="..\:/Users/IDEAPAD GAMING 3/AndroidStudioProjects/MyOnlyWeather/app/src/main/res/drawable/warning_top_bg.xml" value="0.165" />
+        <entry key="..\:/Users/IDEAPAD GAMING 3/AndroidStudioProjects/MyOnlyWeather/app/src/main/res/layout/dialog.xml" value="0.15572916666666667" />
         <entry key="..\:/Users/taha_jadid/AndroidStudioProjects/MyOnlyWeather/app/src/main/res/drawable/background_fix_part.xml" value="0.119" />
         <entry key="..\:/Users/taha_jadid/AndroidStudioProjects/MyOnlyWeather/app/src/main/res/drawable/background_item.xml" value="0.119" />
         <entry key="..\:/Users/taha_jadid/AndroidStudioProjects/MyOnlyWeather/app/src/main/res/drawable/backgroundallitems.xml" value="0.119" />

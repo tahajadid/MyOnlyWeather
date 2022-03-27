@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
+import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.Address;
@@ -16,6 +18,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -95,6 +98,8 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     ActivityCompat.requestPermissions(MainActivity.this
                             , new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 44);
+
+                    showDialog(MainActivity.this,"Localisation est obligatoire");
                 }
             }
         });
@@ -218,6 +223,29 @@ public class MainActivity extends AppCompatActivity {
         Ion.with(this)
                 .load("http://openweathermap.org/img/w/" + icon + ".png")
                 .intoImageView(iconWeather);
+    }
+
+
+
+    public void showDialog(Activity activity, String msg){
+        final Dialog dialog = new Dialog(activity);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setCancelable(false);
+        dialog.setContentView(R.layout.dialog);
+
+        TextView text = (TextView) dialog.findViewById(R.id.text_dialog);
+        text.setText(msg);
+
+        Button dialogButton = (Button) dialog.findViewById(R.id.btn_dialog);
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+        dialog.show();
+
     }
 
 
