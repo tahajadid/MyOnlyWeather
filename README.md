@@ -1,5 +1,6 @@
 # MyOnlyWeather Application
 
+Android application that show the actual wheater in a city by using the location or giving the name of the city. This application based on the result of the openWeatherMap API.
 
 ## Features
  - Splash Screen on start of the applicatio
